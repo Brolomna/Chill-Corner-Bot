@@ -9,11 +9,15 @@ staff_room_id = 446525801920331776
 class AntiRaidRobo(Cog):
     """
     A simple Cog to prevent automated raids.
-    It works by saving new members in a list every 3 seconds and then banning them if the count is more than 5.
+    It works by saving new members in a list every 3 seconds and then banning them if the count is more than 5. 
 
     TODO: Disable it when advertising or promoting the server anywhere(paid shoutouts,partnerships etc)
     """
-
+    #Hi Bharat! Ryuk from CC here. I wanted to know what exactly do you mean by "banning them if the count is more than 5". From what I understood, the bot bans
+    #all the members, including the 5 people who join within 3 second. I don't understand this part. Say, for example, 2 members join CC. In that particular moment, 
+    #let's say 5 raiders join at the same time. Will the bot ban all 7 members, including the one's who weren't raiders? I would really appreciate if you could 
+    #elaborate on that part. 
+    
     def __init__(self, bot):
         super().__init__(bot)
         self.bot = bot
